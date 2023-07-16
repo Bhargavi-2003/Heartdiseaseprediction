@@ -42,7 +42,7 @@ def main():
     #age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal
     
     Age = st.text_input('Age of the person')
-    Sex = st.text_input('Male:1 ,Female:0')
+    Sex = st.text_input('Sex (Male:1 ,Female:0)')
     Cp = st.text_input('Chest pain type 0: typical angina, 1: atypical angina, 2: non-anginal pain, 3: asymptomatic')
     Trestbps = st.text_input('Resting blood pressure')
     Chol = st.text_input('Serum cholestoral in mg/dl')
