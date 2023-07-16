@@ -46,7 +46,7 @@ def main():
     Cp = st.text_input('Chest pain type 0: typical angina, 1: atypical angina, 2: non-anginal pain, 3: asymptomatic')
     Trestbps = st.text_input('Resting blood pressure')
     Chol = st.text_input('Serum cholestoral in mg/dl')
-    Fbs = st.text_input('Fasting blood sugar in > 120 mg/dl (0:False , 1: True ')
+    Fbs = st.text_input('Fasting blood sugar in > 120 mg/dl ( 0:False , 1: True ) ')
     Restecg = st.text_input('Resting electrocardiographic results (values 0,1,2)')
     Thalach = st.text_input('Maximum heart rate achieved')
     Exang = st.text_input('Exercise induced angina ( 0:No 1:Yes)')
